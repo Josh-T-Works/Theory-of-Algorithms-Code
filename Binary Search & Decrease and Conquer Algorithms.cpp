@@ -1,5 +1,3 @@
-1b.
-
 int missingInt(vector<int> A)
 {
 	int l = 0;
@@ -21,8 +19,6 @@ int missingInt(vector<int> A)
 	return l + 1;
 }
 
-3b.
-
 bool isPerfectSquare(int num) {
     int left = 1;
     int right = num;
@@ -43,8 +39,6 @@ bool isPerfectSquare(int num) {
     }
     return false;
 }
-
-4b.
 
 bool searchMatrix(vector<vector<int>>& matrix, int target) {
     int row = 0;
