@@ -1,4 +1,3 @@
-4b. 
 double jobScheduler(vector<double> jobs)
 {
     sort(jobs.begin(), jobs.end());
