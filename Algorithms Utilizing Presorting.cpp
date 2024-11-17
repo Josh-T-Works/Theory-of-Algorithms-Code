@@ -1,5 +1,3 @@
-1b. 
-
 double closestDistance(vector<double> v)
 {
 	sort(v.begin(), v.end()); //STL function
@@ -13,8 +11,6 @@ double closestDistance(vector<double> v)
 	}
 	return min;
 }
-
-2b.
 
 vector<vector<string>> groupAnagrams(vector<string>& strs) {
         vector<vector<string>> sorted;
