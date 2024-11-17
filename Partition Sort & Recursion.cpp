@@ -1,5 +1,3 @@
-2B.
-
 void orderVector(vector<double>& a, int l, int r) {
     if (l < r) {
         int s = partition(a, l, r);
@@ -30,8 +28,6 @@ int partition(vector<double>& a, int l, int r) {
     swap(a[l], a[j]);
     return j;
 }
-
-4B.
 
 bool isSameTree(TreeNode* p, TreeNode* q) {
         if (p == NULL && q == NULL) return true;
