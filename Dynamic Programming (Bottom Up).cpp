@@ -1,5 +1,3 @@
-4b.
-
 int climbStairs(int n) { 
         int moves[46];
         moves[1] = 1;
