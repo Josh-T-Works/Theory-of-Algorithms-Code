@@ -1,9 +1,3 @@
-Josh Thomas
-
-ToA Assignment 3 Programs
-
-1b:
-
 int substringcount(string& str) 
 {
 	int n = str.length();
@@ -23,8 +17,6 @@ int substringcount(string& str)
 	}
 	return count;
 }
-
-2b:
 
 int postofficeLocation(vector<double>& coords)
 {
@@ -59,8 +51,6 @@ int postofficeLocation(vector<double>& coords)
 	}
 	return index;
 }
-
-4b:
 
 int maxArea(vector<int>& height) {
         int ptr1 = 0;
